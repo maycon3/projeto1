@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-position: right center;
     height: 500px;
+    border-top: 1px solid transparent;
 }
 
 .hero-content{
@@ -31,9 +32,13 @@ body{
     background-color: rgba(0, 0, 0, .6);
 }
 
+.hero nav ul {
+    text-align: right;
+}
+
 .hero nav li{
     display: inline-block;
-    margin-left: 10px;
+    margin-right: 15px;
     border: 2px solid white;
 }
 
@@ -45,7 +50,7 @@ body{
     background-color: rgba(0, 0, 0, .3);
     padding: 15px;
     font-size: 12px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .hero nav li a:hover{
