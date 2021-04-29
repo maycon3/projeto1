@@ -64,8 +64,29 @@ main{
 
 .content-section{
     background-color: white;
-    padding:5px;
+    padding:10px;
     margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+
+.card p{
+    background-color: rgba(0, 0, 0, .6);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
 }
 
 .titulo-informativos{
